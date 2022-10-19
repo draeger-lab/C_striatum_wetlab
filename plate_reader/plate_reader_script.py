@@ -16,7 +16,7 @@ from scipy.optimize.minpack import curve_fit
 from datetime import datetime
 
 matplotlib.style.use('seaborn-whitegrid')
-#matplotlib.use("pgf")
+matplotlib.use("pgf")
 matplotlib.rcParams.update({
     "pgf.texsystem": "pdflatex",
     'font.family': 'serif',
@@ -193,15 +193,12 @@ def export_tex(growth, date, nice_date, path_to_save, texfilepath, fit_func):
         fig.savefig(filefig, bbox_inches='tight')
 
         with sub.create(Figure(position='htbp')) as plot:
-            #plot.add_image(os.path.abspath(os.getcwd()) + '/' + filefig)
             plot.append(NoEscape(r'\centering'))
             plot.append(NoEscape(r'\resizebox{0.9\textwidth}{!}{\import{' + os.getcwd() + '/' + path_to_save + '}{' + label + '.pgf}}' ))
-           # plot.append(NoEscape('\end{center}'))
             plot.append(NoEscape('\caption['+  capt + ']{' + capt + captfig + '}'))
             plot.append(NoEscape('\label{fig:' + label + '}'))
         sub.append(NoEscape(lat))
         tex = sub.dumps()
-        #print(tex)
 
     with open(texfilepath + 'Cstr_' + date + '.tex', "w") as text_file:
         text_file.write(tex)
@@ -234,4 +231,3 @@ growth, errors = extract_columns(df, plate_layout, plate_layout['biological repl
 export_tex(growth, date, nice_date, 'growth_curves/',  '../thesis/files/growth_curves/', logistic_mod)
 
 plt.close('all')
-#growth[14][['Time', 'SNM(+Vit)+cmp']].to_csv('210915_Cstr14_SNMVitcmp.csv', index=False)
