@@ -10,4 +10,4 @@ style="display: inline-block; margin: 0 auto; max-width: 300px"/>
 
 ## Conversion of jupyter notebooks
 We can convert jupyter notebooks to other formats. Use this command to convert to a pdf that can be included in the thesis:
-`jupyter nbconvert --to pdf plate_reader_curves.ipynb --output-dir '/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/thesis/files/jupyter_nb' --template=classic.tplx `
+`jupyter nbconvert --to pdf plate_reader_curves.ipynb --output-dir '/Users/baeuerle/Organisation/Masterarbeit/thesis/files/jupyter_nb' --template=classic.tplx `
