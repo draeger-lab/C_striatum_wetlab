@@ -1,0 +1,20 @@
+strain 14 221110
+-/-	CGXII - ni - 34dhbz - btn
+-/+	CGXII - ni - 34dhbz + cobalt
++/-	CGXII
++/+	CGXII + cobalt
+strain 15 221110
+-/-	CGXII - ni - 34dhbz - btn
+-/++	CGXII - ni - 34dhbz + cobalt + pnto + cys__L + arg__L + acgam
++/-	CGXII
++/++	CGXII + cobalt + pnto + cys__L + arg__L + acgam
+strain 16 221110
+-/-	CGXII - ni - 34dhbz - btn
+-/++	CGXII - ni - 34dhbz - btn + cobalt + pnto + cys__L + arg__L + acgam
++/-	CGXII
++/++	CGXII + cobalt + pnto + cys__L + arg__L + acgam
+strain 17 221110
+-/-	CGXII - ni - 34dhbz - btn
+-/+	CGXII - ni - 34dhbz - btn + cobalt + pnto + nmn
++/-	CGXII
++/+	CGXII + cobalt + pnto + nmn
