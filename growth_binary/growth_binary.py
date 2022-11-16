@@ -71,7 +71,10 @@ for date in mapping.keys():
         plt.title(strain + ' ' + path[-6:])
         plt.ylabel('OD 600')
         plt.xlabel('')
-        ax.set_ylim((0,None))
+        if exp['mean'].max() > 0.5:
+            ax.set_ylim((0,2.2))
+        else:
+            ax.set_ylim((0,0.5))
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
         #plt.yticks(np.arange(0, 1.3, 0.25))
@@ -81,5 +84,6 @@ for date in mapping.keys():
         plt.close()
         with open('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "a") as myfile:
             myfile.write('strain ' + str(strain) + ' ' +str(date) + '\n')
+            #myfile.write(pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_latex(header=False, index=False))
         pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_csv('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', mode='a', sep='\t', header=False, index=False)
 
