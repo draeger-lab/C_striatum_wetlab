@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import os
-import PARAMS
+from PARAMS import *
 
 
 csv_path = 'mapping.csv'
