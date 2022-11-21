@@ -7,19 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import os
-cb = ['#377eb8', '#ff7f00', '#4daf4a',
-                  '#f781bf', '#a65628', '#984ea3',
-                  '#999999', '#e41a1c', '#dede00']
-matplotlib.rcParams.update({'font.size': 18})
-#matplotlib.rcParams.update({'font.family': 'serif'})
-matplotlib.rcParams['figure.dpi'] = 180
-matplotlib.rcParams['savefig.dpi'] = 180
-matplotlib.rcParams['errorbar.capsize'] = 5
-matplotlib.rcParams['axes.linewidth'] = 2
-matplotlib.rcParams['xtick.major.size'] = 5
-matplotlib.rcParams['ytick.major.width'] = 2
-#matplotlib.rcParams['xtick.minor.size'] = 10
-matplotlib.rcParams['xtick.minor.width'] = 2
+import PARAMS
 
 
 csv_path = 'mapping.csv'
@@ -60,26 +48,26 @@ for date in mapping.keys():
     path = 'CGXII_' + str(date)
     exp1 = pd.read_csv(path_to_data + path + '.csv')
     for strain in mapping[date].keys():
+        fig, ax = plt.subplots()
         exp = exp1[['short', strain +'-1', strain +'-2', strain +'-3']].dropna()
         exp['mean'] = exp.mean(axis=1)
         err = exp.std(axis=1)
-        ax = exp.plot.bar('short','mean',color=cb[6], rot=0, edgecolor='k', legend=False)
-        plt.errorbar(exp['short'],exp['mean'], color='k', yerr=err, fmt='none', lw=2)
+        exp.plot.bar('short','mean',color=cb[6], rot=0, edgecolor='k', legend=False, ax=ax)
+        plt.errorbar(exp['short'],exp['mean'], color='k', yerr=err, fmt='none')
         ax.set_zorder(1)
         #plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
         #plt.legend(False)#loc='center left', bbox_to_anchor=(1, 0.5))
         plt.title(strain + ' ' + path[-6:])
-        plt.ylabel('OD 600')
+        plt.ylabel(r'OD$_{600}$')
         plt.xlabel('')
         if exp['mean'].max() > 0.5:
             ax.set_ylim((0,2.2))
         else:
             ax.set_ylim((0,0.5))
-        ax.spines['top'].set_visible(False)
-        ax.spines['right'].set_visible(False)
         #plt.yticks(np.arange(0, 1.3, 0.25))
         plt.tick_params(bottom=False)
         #plt.show()
+        plt.tight_layout()
         plt.savefig('growth_binary_figures/' + str(date) + '/' + path + '_' + strain + '.png', bbox_inches='tight')
         plt.close()
         with open('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "a") as myfile:
