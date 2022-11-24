@@ -1,6 +1,7 @@
 # styling of plots
 import matplotlib
 
+matplotlib.rcParams['figure.titlesize'] = 18
 matplotlib.rcParams['axes.linewidth'] = 2
 matplotlib.rcParams['figure.dpi'] = 180
 matplotlib.rcParams['savefig.dpi'] = 180
@@ -18,6 +19,6 @@ matplotlib.rcParams['ytick.labelsize'] = 14
 
 # colors and patterns
 cb = ['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']
-pat = [".", 'x', '+']
+pat = ['x','x','x','x',".", ".", ".", ".", '+', '+','+','+']
 colorstandards = {'14':'tab:cyan', '15':'g', '16':'darksalmon', '17': 'goldenrod'}
 markers = ["D", "x", "o",  "H", "d", "p", "H",  "*"]
