@@ -21,3 +21,4 @@ cb = ['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999',
 pat = [".", 'x', '+']
 colorstandards = {'14':'tab:cyan', '15':'g', '16':'darksalmon', '17': 'goldenrod'}
 markers = ["D", "x", "o",  "H", "d", "p", "H",  "*"]
+greys = ['dimgrey', 'grey', 'darkgrey', 'silver', 'lightgrey', 'gainsboro', 'whitesmoke']

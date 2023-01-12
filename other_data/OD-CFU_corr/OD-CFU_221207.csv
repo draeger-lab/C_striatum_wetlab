@@ -1,0 +1,5 @@
+focus,cond,14-1,14-2,14-3
+OD,centrifuged,0.51,0.55,0.52
+CFU,centrifuged,4.91e7,5.9e7,6.62e7
+OD,not-centrifuged,0.53,0.44,0.48
+CFU,not-centrifuged,2.94e7,4.12e7,0.48e7
