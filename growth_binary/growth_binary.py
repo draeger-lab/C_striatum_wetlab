@@ -58,7 +58,7 @@ for date in mapping.keys():
         #plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
         #plt.legend(False)#loc='center left', bbox_to_anchor=(1, 0.5))
         plt.title(strain + ' ' + path[-6:])
-        plt.ylabel(r'OD$_{600}$')
+        plt.ylabel(r'OD$_{600}$ (t=24h)')
         plt.xlabel('')
         if exp['mean'].max() > 0.5:
             ax.set_ylim((0,2.2))

@@ -86,3 +86,5 @@ for date in mapping.keys():
                 #myfile.write(pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_latex(header=False, index=False))
             pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_csv('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', mode='a', sep='\t', header=False, index=False)
 
+
+# %%
