@@ -58,6 +58,7 @@ def extract_columns(df, conditions, bio_rep=False, bio_rep_name=''):#, strains):
 
     blank = triplicates[triplicates.columns[3::4]]
     blank.columns = np.arange(8)
+    #blank.loc[:,0] = df.iloc[:,2:].loc[:,'A10'].values #use when you only want the first column of blanks 01.02.2023
 
     left = triplicates[triplicates.columns[::4]]
     left.columns = np.arange(8)
@@ -219,7 +220,7 @@ path_to_excel = 'plate_reader_results/'
 
 ###
 # you only need to modify this and denote layout in plate_layout.csv
-excel_file = '210908_Cstr.xlsx' 
+excel_file = '230201_Cstr.xlsx' 
 ###
 
 date = excel_file[:6]
