@@ -23,3 +23,10 @@ pat = ['x','x','x','x',".", ".", ".", ".", '+', '+','+','+']
 colorstandards = {'14':'tab:cyan', '15':'g', '16':'darksalmon', '17': 'goldenrod'}
 markers = ["D", "x", "o",  "H", "d", "p", "H",  "*"]
 greys = ['dimgrey', 'dimgrey', 'dimgrey','dimgrey', 'darkgrey', 'darkgrey', 'darkgrey', 'darkgrey', 'whitesmoke', 'whitesmoke', 'whitesmoke', 'whitesmoke']
+
+# strain naming
+STRAINS_LAB = {'14':'TS', 
+            '15':'1197',
+            '16':'1115',
+            '17':'1116',
+            }
