@@ -38,13 +38,13 @@ mapping = get_mapping(csv_path)
 
 for date in mapping.keys():
     try:
-        os.makedirs('growth_binary_figures/' + str(date) + '/')
+        os.makedirs('figures/' + str(date) + '/')
     except (FileExistsError):
         pass
-    with open('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "w") as myfile:
+    with open('figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "w") as myfile:
         myfile.write('')
 
-    path_to_data = 'growth_binary_results/'
+    path_to_data = 'data/'
     path = 'CGXII_' + str(date)
     exp1 = pd.read_csv(path_to_data + path + '.csv')
     for strain in mapping[date].keys():
@@ -68,10 +68,10 @@ for date in mapping.keys():
         plt.tick_params(bottom=False)
         #plt.show()
         plt.tight_layout()
-        plt.savefig('growth_binary_figures/' + str(date) + '/' + path + '_' + strain + '.png', bbox_inches='tight')
+        plt.savefig('figures/' + str(date) + '/' + path + '_' + strain + '.png', bbox_inches='tight')
         plt.close()
-        with open('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "a") as myfile:
+        with open('figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', "a") as myfile:
             myfile.write('strain ' + str(strain) + ' ' +str(date) + '\n')
             #myfile.write(pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_latex(header=False, index=False))
-        pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_csv('growth_binary_figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', mode='a', sep='\t', header=False, index=False)
+        pd.DataFrame(mapping[date][strain].items(), columns=['short', 'composition']).to_csv('figures/' + str(date) + '/CGXII_'+ str(date) + '_legend.csv', mode='a', sep='\t', header=False, index=False)
 
