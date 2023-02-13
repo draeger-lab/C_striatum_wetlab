@@ -3,6 +3,8 @@
 ## Experimental method
 Microtiter format to assess growth kinetics. Apart of binary phenotypes, prediction of metabolites or additional nutrients that increase/decrease growth rates are of high relevance for the planning of in vitro experiments. We used 150µl volume of media in a 96-well plate and automated, assessment of ODs over time to assess growth kinetics. From growth curves obtained in a plate reader we can use a fitting routine to extract the doubling time at the inflection point of the sigmoidal curve. This doubling time can then be compared to the predicted doubling times derived from the in silico growth rates.
 
+<img src="./metadata/growth_kinetics_protocol.png" height="200"/><br>
+
 ## Folder structure
 * `code` holds all scripts for data exploration and analysis
 * `data` holds raw, averaged and aggregated laboratory data
