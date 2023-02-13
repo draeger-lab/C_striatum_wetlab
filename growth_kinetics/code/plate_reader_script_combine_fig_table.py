@@ -149,7 +149,7 @@ def extract_growthrate(df, fit_func):
 
     return df_growth, fig
 
-def convert_layout(plate_layout_file = 'plate_layout.csv'):
+def convert_layout(plate_layout_file = '../metadata/plate_layout.csv'):
     """converts csv layout file to work with other functions
 
     Args:
@@ -211,21 +211,21 @@ def export_tex(growth, date, nice_date, path_to_save, texfilepath, fit_func):
         #sub.append(NoEscape(lat))
         tex = sub.dumps()
 
-    with open(texfilepath + 'Cstr_' + date + '.tex', "w") as text_file:
+    with open(texfilepath + date + '_curve-table.tex', "w") as text_file:
         text_file.write(tex)
 
 
 # inputs
-path_to_excel = 'data/'
+path_to_excel = '../data/raw/'
 
 ###
 # you only need to modify this and denote layout in plate_layout.csv
-excel_file = '230201_Cstr.xlsx' 
+excel_file = '2023-02-06_15.xlsx' 
 ###
 
-date = excel_file[:6]
-nice_date = date[4:] + '.' + date[2:4] + '.20' + date[:2]
-plate_layout = convert_layout()[int(date)]
+date = excel_file[:10]
+nice_date = date[8:] + '.' + date[5:7] + '.' + date[:4]
+plate_layout = convert_layout()[date]
 nrows = 0 
 if plate_layout['duration'] == 24.0:
     nrows = 96 #96 for 24
@@ -239,7 +239,7 @@ df = pd.read_excel(path_to_excel+excel_file, usecols="B:CU", skiprows=57, nrows=
 
 growth, errors = extract_columns(df, plate_layout, plate_layout['biological replicates'], bio_rep_name)
 #%
-export_tex(growth, date, nice_date, 'figures/',  '/Users/baeuerle/Organisation/Masterarbeit/thesis/files/growth_curves/', logistic_mod)
+export_tex(growth, date, nice_date, '../figures/automated_curves/',  '/Users/baeuerle/Organisation/Masterarbeit/thesis/files/growth_curves/', logistic_mod)
 
 plt.close('all')
 # %%

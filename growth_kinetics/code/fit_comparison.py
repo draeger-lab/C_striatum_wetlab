@@ -26,7 +26,7 @@ def huang(t, lam, y0, K, r): #from growthrate
     return y0 + K - np.log(np.exp(y0) + (np.exp(K)-np.exp(y0))*np.exp(-r*b))
 
 
-df = pd.read_csv('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/labwork/210915_Cstr14_SNMVitcmp.csv')
+df = pd.read_csv('/Users/baeuerle/Organisation/Masterarbeit/C_striatum_wetlab/growth_kinetics/data/media_avg/2021-09-15_Cstr14_SNMVitcmp.csv')
 
 fig, ax = plt.subplots(1, 1)
 
