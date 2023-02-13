@@ -205,7 +205,7 @@ def export_tex(growth, date, nice_date, path_to_save, texfilepath, fit_func):
 
 
 # inputs
-path_to_excel = 'plate_reader_results/'
+path_to_excel = 'data/'
 
 ###
 # you only need to modify this and denote layout in plate_layout.csv

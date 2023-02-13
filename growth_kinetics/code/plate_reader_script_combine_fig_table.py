@@ -216,7 +216,7 @@ def export_tex(growth, date, nice_date, path_to_save, texfilepath, fit_func):
 
 
 # inputs
-path_to_excel = 'plate_reader_results/'
+path_to_excel = 'data/'
 
 ###
 # you only need to modify this and denote layout in plate_layout.csv
@@ -239,7 +239,7 @@ df = pd.read_excel(path_to_excel+excel_file, usecols="B:CU", skiprows=57, nrows=
 
 growth, errors = extract_columns(df, plate_layout, plate_layout['biological replicates'], bio_rep_name)
 #%
-export_tex(growth, date, nice_date, 'growth_curves_figures/',  '/Users/baeuerle/Organisation/Masterarbeit/thesis/files/growth_curves/', logistic_mod)
+export_tex(growth, date, nice_date, 'figures/',  '/Users/baeuerle/Organisation/Masterarbeit/thesis/files/growth_curves/', logistic_mod)
 
 plt.close('all')
 # %%
