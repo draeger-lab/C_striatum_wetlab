@@ -1,4 +1,4 @@
-# `binary_growth_phenotypes/data``
+# `binary_growth_phenotypes/data`
 
 * `raw` holds data which was directly taken in the lab named by [date]\_[medium]\_[strain(s)].csv
 
