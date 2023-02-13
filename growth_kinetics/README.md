@@ -16,7 +16,8 @@ Microtiter format to assess growth kinetics. Apart of binary phenotypes, predict
 * AMiGA  
     * https://github.com/firasmidani/amiga 
     * https://journals.asm.org/doi/10.1128/mSystems.00508-21 
-    * BIOLOG plates  | https://firasmidani.github.io/amiga/ 
+    * BIOLOG plates 
+    * https://firasmidani.github.io/amiga/ 
     * Python
     * Gaussian Process regression
 * Growthcurver
