@@ -10,6 +10,7 @@ Microtiter format to assess growth kinetics. Apart of binary phenotypes, predict
 * `data` holds raw, averaged and aggregated laboratory data
 * `figures` holds graphs and tables created with the scripts and the data provided in the other folders
 * `metadata` holds experimental protocols and a the plate layout (where which samples was located)
+* `amiga` holds tests of analysis with the Python package [AMiGA](https://github.com/firasmidani/amiga )
 
 ## Growth Curve Fitting comparison
 
