@@ -24,7 +24,7 @@ The final medium was then prepared by mixing the stock solutions to the final co
 
 Below you can find a table on how to prepare 250 mL of medium.
 
-| **metabolite**    | **dilution factor ** | **vol [ml] for 250 ml** |
+| **metabolite**    | **dilution factor** | **vol [ml] for 250 ml** |
 |-------------------|----------------------|--------------------|
 | (NH4)2SO4         | 10                   | 25                 |
 | K2HPO4            | 100                  | 2.5                |
