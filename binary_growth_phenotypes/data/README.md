@@ -10,6 +10,8 @@ The experiments were usually done with three biological replicates, if not it is
 
 The column headers of [medium]\_[OD].csv: lab_mapping refers to the sample name used in the lab, short holds the medium composition, OD is the Optical Density at 600nm, strain is the strain, time is the time point of the measurement and sample refers to the three biological replicates. 
 
-The column headers of [medium]\_[sig]\_[pairs].csv: strain is the strain, pval is the calculated p-value using `ttest_rel` for 0h and 24h pairs and `ttest_ind` for different medium composition pairs, significance refers to a common short form visualization where 'ns' means pval <= 1.00e+00, '\*': 1.00e-02 < p <= 5.00e-02 '\*\*': 1.00e-03 < p <= 1.00e-02 '\*\*\*': 1.00e-04 < p <= 1.00e-03 and '\*\*\*\*': p <= 1.00e-04 .
+The column headers of [medium]\_[sig]\_[pairs].csv: strain is the strain, pval is the calculated p-value using [`scipy.stats.ttest_rel`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html) for 0h and 24h pairs and [`scipy.stats.ttest_ind`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html) for different medium composition pairs, significance refers to a common short form visualization where 'ns' means pval <= 1.00e+00, '\*': 1.00e-02 < p <= 5.00e-02 '\*\*': 1.00e-03 < p <= 1.00e-02 '\*\*\*': 1.00e-04 < p <= 1.00e-03 and '\*\*\*\*': p <= 1.00e-04.
+
+All files in `agg` can be generated with the script `data_aggregation.py` which is located in `binary_growth_phenotypes/code`.
 
 Strain mapping is as follows: '14':'TS', '15':'1197', '16':'1115' and '17':'1116'.
