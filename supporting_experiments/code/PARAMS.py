@@ -20,5 +20,12 @@ matplotlib.rcParams['ytick.labelsize'] = 14
 cb = ['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']
 pat = [".", 'x', '+']
 colorstandards = {'14':'tab:cyan', '15':'g', '16':'darksalmon', '17': 'goldenrod'}
+cs2 = {'TS':'tab:cyan', '1197':'g', '1115':'darksalmon', '1116': 'goldenrod'}
 markers = ["D", "x", "o",  "H", "d", "p", "H",  "*"]
 greys = ['dimgrey', 'grey', 'darkgrey', 'silver', 'lightgrey', 'gainsboro', 'whitesmoke']
+
+STRAINS_LAB = {'14':'TS', 
+            '15':'1197',
+            '16':'1115',
+            '17':'1116',
+            }
