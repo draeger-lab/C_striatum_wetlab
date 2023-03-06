@@ -134,5 +134,7 @@ if __name__ == '__main__':
     test_between_media(pd.read_csv('../data/agg/M9_OD.csv')).to_csv('../data/agg/M9_sig_additives.csv', index=False)
     agg_and_save_RPMI_LB()
     test_between_0_and_24(pd.read_csv('../data/agg/RPMI_OD.csv')).to_csv('../data/agg/RPMI_sig_0to24.csv', index=False)
+    test_between_media(pd.read_csv('../data/agg/RPMI_OD.csv')).to_csv('../data/agg/RPMI_sig_adds.csv', index=False)
     test_between_0_and_24(pd.read_csv('../data/agg/LB_OD.csv')).to_csv('../data/agg/LB_sig_0to24.csv', index=False)
+    test_between_media(pd.read_csv('../data/agg/LB_OD.csv')).to_csv('../data/agg/LB_sig_adds.csv', index=False)
 
