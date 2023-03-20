@@ -76,7 +76,7 @@ def extract_columns(df, conditions, bio_rep=False, bio_rep_name=''):
     
     return  return_dict, df_errors
 
-def convert_layout(plate_layout_file = 'plate_layout.csv'):
+def convert_layout(plate_layout_file = '../metadata/plate_layout.csv'):
     """converts csv layout file to work with other functions
 
     Args:
@@ -101,9 +101,9 @@ def convert_layout(plate_layout_file = 'plate_layout.csv'):
     return layout_dict
 
 def get_info(excel_file):
-    date = excel_file[:6]
-    nice_date = date[4:] + '.' + date[2:4] + '.20' + date[:2]
-    plate_layout = convert_layout()[int(date)]
+    date = excel_file[:10]
+    nice_date = date[8:] + '.' + date[5:7] + '.' + date[:4]
+    plate_layout = convert_layout()[date]
     nrows = 0 
     if plate_layout['duration'] == 24.0:
         nrows = 96 #96 for 24
