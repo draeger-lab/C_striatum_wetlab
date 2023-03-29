@@ -32,7 +32,8 @@ def agg_and_save_CGXII():
     }) for frame in frames]  
     datasets2 = [
         '../data/raw/2023-02-09_CGXII_all.csv',
-        '../data/raw/2023-02-10_CGXII_all.csv'
+        '../data/raw/2023-02-10_CGXII_all.csv',
+        '../data/raw/2023-03-28_CGXII_15-16-17.csv'
     ]
     frames2 = [pd.read_csv(df) for df in datasets2]
     data = pd.concat(frames_new, axis=1)
@@ -50,6 +51,7 @@ def agg_and_save_M9():
     datasets = [
     '../data/raw/2023-02-03_M9_all.csv', # 14
     '../data/raw/2023-02-09_M9_all.csv', # 16
+    '../data/raw/2023-03-29_M9_all.csv'
     ]
     # read csv files
     frames = [pd.read_csv(df) for df in datasets] 

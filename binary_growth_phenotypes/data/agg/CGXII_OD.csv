@@ -48,6 +48,8 @@ lab_mapping,short,OD,strain,time,sample
 16-0-1,CGXII+Tween+Trace,0.224,1115,0,1
 16-0-1,CGXII+Tween+Vit,0.217,1115,0,1
 16-0-1,CGXII+Tween+Vit+Trace,0.247,1115,0,1
+16-0-1,CGXII+adds,0.206,1115,0,1
+16-0-1,CGXII+adds+CasA,0.209,1115,0,1
 16-0-2,CGXII,0.206,1115,0,2
 16-0-2,CGXII+CasA,0.206,1115,0,2
 16-0-2,CGXII+Tween,0.222,1115,0,2
@@ -55,6 +57,8 @@ lab_mapping,short,OD,strain,time,sample
 16-0-2,CGXII+Tween+Trace,0.227,1115,0,2
 16-0-2,CGXII+Tween+Vit,0.211,1115,0,2
 16-0-2,CGXII+Tween+Vit+Trace,0.207,1115,0,2
+16-0-2,CGXII+adds,0.191,1115,0,2
+16-0-2,CGXII+adds+CasA,0.205,1115,0,2
 16-0-3,CGXII,0.173,1115,0,3
 16-0-3,CGXII+CasA,0.221,1115,0,3
 16-0-3,CGXII+Tween,0.224,1115,0,3
@@ -62,6 +66,8 @@ lab_mapping,short,OD,strain,time,sample
 16-0-3,CGXII+Tween+Trace,0.226,1115,0,3
 16-0-3,CGXII+Tween+Vit,0.214,1115,0,3
 16-0-3,CGXII+Tween+Vit+Trace,0.209,1115,0,3
+16-0-3,CGXII+adds,0.209,1115,0,3
+16-0-3,CGXII+adds+CasA,0.215,1115,0,3
 16-24-1,CGXII,0.213,1115,24,1
 16-24-1,CGXII+CasA,3.71,1115,24,1
 16-24-1,CGXII+Tween,0.478,1115,24,1
@@ -69,6 +75,8 @@ lab_mapping,short,OD,strain,time,sample
 16-24-1,CGXII+Tween+Trace,0.944,1115,24,1
 16-24-1,CGXII+Tween+Vit,0.383,1115,24,1
 16-24-1,CGXII+Tween+Vit+Trace,0.467,1115,24,1
+16-24-1,CGXII+adds,0.646,1115,24,1
+16-24-1,CGXII+adds+CasA,2.374,1115,24,1
 16-24-2,CGXII,0.3,1115,24,2
 16-24-2,CGXII+CasA,3.8,1115,24,2
 16-24-2,CGXII+Tween,0.499,1115,24,2
@@ -76,6 +84,8 @@ lab_mapping,short,OD,strain,time,sample
 16-24-2,CGXII+Tween+Trace,1.153,1115,24,2
 16-24-2,CGXII+Tween+Vit,0.416,1115,24,2
 16-24-2,CGXII+Tween+Vit+Trace,0.371,1115,24,2
+16-24-2,CGXII+adds,0.553,1115,24,2
+16-24-2,CGXII+adds+CasA,2.366,1115,24,2
 16-24-3,CGXII,0.15,1115,24,3
 16-24-3,CGXII+CasA,3.77,1115,24,3
 16-24-3,CGXII+Tween,0.55,1115,24,3
@@ -83,6 +93,8 @@ lab_mapping,short,OD,strain,time,sample
 16-24-3,CGXII+Tween+Trace,0.871,1115,24,3
 16-24-3,CGXII+Tween+Vit,0.406,1115,24,3
 16-24-3,CGXII+Tween+Vit+Trace,0.36,1115,24,3
+16-24-3,CGXII+adds,0.545,1115,24,3
+16-24-3,CGXII+adds+CasA,2.563,1115,24,3
 15-0-1,CGXII,0.141,1197,0,1
 15-0-1,CGXII+CasA,0.194,1197,0,1
 15-0-1,CGXII+Tween,0.175,1197,0,1
@@ -90,6 +102,8 @@ lab_mapping,short,OD,strain,time,sample
 15-0-1,CGXII+Tween+Trace,0.17,1197,0,1
 15-0-1,CGXII+Tween+Vit,0.192,1197,0,1
 15-0-1,CGXII+Tween+Vit+Trace,0.208,1197,0,1
+15-0-1,CGXII+adds,0.207,1197,0,1
+15-0-1,CGXII+adds+CasA,0.205,1197,0,1
 15-0-2,CGXII,0.162,1197,0,2
 15-0-2,CGXII+CasA,0.196,1197,0,2
 15-0-2,CGXII+Tween,0.188,1197,0,2
@@ -97,6 +111,8 @@ lab_mapping,short,OD,strain,time,sample
 15-0-2,CGXII+Tween+Trace,0.191,1197,0,2
 15-0-2,CGXII+Tween+Vit,0.202,1197,0,2
 15-0-2,CGXII+Tween+Vit+Trace,0.203,1197,0,2
+15-0-2,CGXII+adds,0.192,1197,0,2
+15-0-2,CGXII+adds+CasA,0.21,1197,0,2
 15-0-3,CGXII,0.181,1197,0,3
 15-0-3,CGXII+CasA,0.197,1197,0,3
 15-0-3,CGXII+Tween,0.172,1197,0,3
@@ -104,6 +120,8 @@ lab_mapping,short,OD,strain,time,sample
 15-0-3,CGXII+Tween+Trace,0.174,1197,0,3
 15-0-3,CGXII+Tween+Vit,0.208,1197,0,3
 15-0-3,CGXII+Tween+Vit+Trace,0.209,1197,0,3
+15-0-3,CGXII+adds,0.202,1197,0,3
+15-0-3,CGXII+adds+CasA,0.199,1197,0,3
 15-24-1,CGXII,0.196,1197,24,1
 15-24-1,CGXII+CasA,1.07,1197,24,1
 15-24-1,CGXII+Tween,0.285,1197,24,1
@@ -111,6 +129,8 @@ lab_mapping,short,OD,strain,time,sample
 15-24-1,CGXII+Tween+Trace,0.285,1197,24,1
 15-24-1,CGXII+Tween+Vit,0.47,1197,24,1
 15-24-1,CGXII+Tween+Vit+Trace,0.443,1197,24,1
+15-24-1,CGXII+adds,0.616,1197,24,1
+15-24-1,CGXII+adds+CasA,2.646,1197,24,1
 15-24-2,CGXII,0.284,1197,24,2
 15-24-2,CGXII+CasA,1.14,1197,24,2
 15-24-2,CGXII+Tween,0.315,1197,24,2
@@ -118,6 +138,8 @@ lab_mapping,short,OD,strain,time,sample
 15-24-2,CGXII+Tween+Trace,0.321,1197,24,2
 15-24-2,CGXII+Tween+Vit,0.51,1197,24,2
 15-24-2,CGXII+Tween+Vit+Trace,0.493,1197,24,2
+15-24-2,CGXII+adds,0.564,1197,24,2
+15-24-2,CGXII+adds+CasA,2.677,1197,24,2
 15-24-3,CGXII,0.292,1197,24,3
 15-24-3,CGXII+CasA,1.11,1197,24,3
 15-24-3,CGXII+Tween,0.293,1197,24,3
@@ -125,6 +147,8 @@ lab_mapping,short,OD,strain,time,sample
 15-24-3,CGXII+Tween+Trace,0.299,1197,24,3
 15-24-3,CGXII+Tween+Vit,0.505,1197,24,3
 15-24-3,CGXII+Tween+Vit+Trace,0.48,1197,24,3
+15-24-3,CGXII+adds,0.668,1197,24,3
+15-24-3,CGXII+adds+CasA,2.562,1197,24,3
 17-0-1,CGXII,0.18,1116,0,1
 17-0-1,CGXII+CasA,0.201,1116,0,1
 17-0-1,CGXII+Tween,0.186,1116,0,1
@@ -136,6 +160,8 @@ lab_mapping,short,OD,strain,time,sample
 17-0-1,CGXII+Tween+Vit+nac,0.219,1116,0,1
 17-0-1,CGXII+Tween+nac,0.182,1116,0,1
 17-0-1,CGXII+Tween+nac+CasA,0.188,1116,0,1
+17-0-1,CGXII+adds,0.193,1116,0,1
+17-0-1,CGXII+adds+CasA,0.198,1116,0,1
 17-0-1,CGXII+nac,0.159,1116,0,1
 17-0-2,CGXII,0.178,1116,0,2
 17-0-2,CGXII+CasA,0.201,1116,0,2
@@ -148,6 +174,8 @@ lab_mapping,short,OD,strain,time,sample
 17-0-2,CGXII+Tween+Vit+nac,0.218,1116,0,2
 17-0-2,CGXII+Tween+nac,0.188,1116,0,2
 17-0-2,CGXII+Tween+nac+CasA,0.188,1116,0,2
+17-0-2,CGXII+adds,0.194,1116,0,2
+17-0-2,CGXII+adds+CasA,0.203,1116,0,2
 17-0-2,CGXII+nac,0.159,1116,0,2
 17-0-3,CGXII,0.169,1116,0,3
 17-0-3,CGXII+CasA,0.177,1116,0,3
@@ -160,6 +188,8 @@ lab_mapping,short,OD,strain,time,sample
 17-0-3,CGXII+Tween+Vit+nac,0.198,1116,0,3
 17-0-3,CGXII+Tween+nac,0.193,1116,0,3
 17-0-3,CGXII+Tween+nac+CasA,0.197,1116,0,3
+17-0-3,CGXII+adds,0.201,1116,0,3
+17-0-3,CGXII+adds+CasA,0.203,1116,0,3
 17-0-3,CGXII+nac,0.165,1116,0,3
 17-24-1,CGXII,0.169,1116,24,1
 17-24-1,CGXII+CasA,0.74,1116,24,1
@@ -172,6 +202,8 @@ lab_mapping,short,OD,strain,time,sample
 17-24-1,CGXII+Tween+Vit+nac,0.278,1116,24,1
 17-24-1,CGXII+Tween+nac,0.324,1116,24,1
 17-24-1,CGXII+Tween+nac+CasA,1.151,1116,24,1
+17-24-1,CGXII+adds,0.248,1116,24,1
+17-24-1,CGXII+adds+CasA,1.042,1116,24,1
 17-24-1,CGXII+nac,0.217,1116,24,1
 17-24-2,CGXII,0.206,1116,24,2
 17-24-2,CGXII+CasA,0.57,1116,24,2
@@ -184,6 +216,8 @@ lab_mapping,short,OD,strain,time,sample
 17-24-2,CGXII+Tween+Vit+nac,0.268,1116,24,2
 17-24-2,CGXII+Tween+nac,0.33,1116,24,2
 17-24-2,CGXII+Tween+nac+CasA,1.125,1116,24,2
+17-24-2,CGXII+adds,0.27,1116,24,2
+17-24-2,CGXII+adds+CasA,1.215,1116,24,2
 17-24-2,CGXII+nac,0.122,1116,24,2
 17-24-3,CGXII,0.167,1116,24,3
 17-24-3,CGXII+CasA,0.71,1116,24,3
@@ -196,4 +230,6 @@ lab_mapping,short,OD,strain,time,sample
 17-24-3,CGXII+Tween+Vit+nac,0.24,1116,24,3
 17-24-3,CGXII+Tween+nac,0.335,1116,24,3
 17-24-3,CGXII+Tween+nac+CasA,1.169,1116,24,3
+17-24-3,CGXII+adds,0.25,1116,24,3
+17-24-3,CGXII+adds+CasA,1.101,1116,24,3
 17-24-3,CGXII+nac,0.153,1116,24,3
