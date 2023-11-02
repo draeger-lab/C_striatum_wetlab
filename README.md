@@ -15,8 +15,8 @@ style="display: inline-block; margin: 0 auto; max-width: 300px"/>
 
 ## How to cite
 Famke Bäuerle, Gwendolyn O. Döbel, Laura Camus, Simon Heilbronner, and Andreas Dräger. 
-Genome-scale metabolic models consistently predict in vitro characteristics of Corynebacterium
-striatum. Front. Bioinform., oct 2023. [doi:10.3389/fbinf.2023.1214074](https://doi.org/10.3389/fbinf.2023.1214074).
+Genome-scale metabolic models consistently predict *in vitro* characteristics of *Corynebacterium
+striatum*. Front. Bioinform., oct 2023. [doi:10.3389/fbinf.2023.1214074](https://doi.org/10.3389/fbinf.2023.1214074).
 
 ## Conversion of jupyter notebooks
 We can convert jupyter notebooks to other formats. Use this command to convert to a pdf that can be included in the thesis:
