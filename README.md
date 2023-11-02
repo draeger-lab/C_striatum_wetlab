@@ -13,7 +13,10 @@ title="Colony morphology <i>C. striatum</i>"
 style="display: inline-block; margin: 0 auto; max-width: 300px"/>
 *Corynebacterium striatum*, a gram-positive and non-sporulating rod, has recently been discovered for its pathogenic properties. Even though it has been known since the early 20th cen- tury, C.striatum was often disregarded as a pathogen since it is part of the typical human skin microbiota<sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5655097/)</sup>. Nevertheless, it was found that, especially in immunocompromised patients, C.striatum can be the source for diseases such as Chronic Obstructive Pulmonary Disease, also known as COPD or pneumonia<sup>[2](https://jidc.org/index.php/journal/article/view/31954008)</sup>. Not only is *C. striatum* active within the respiratory tract, but it was also attributed to long-standing open wound infections<sup>[3](http://europepmc.org/article/MED/28208859)</sup> and prolonged hospitalizations<sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037610/)</sup>.
 
-
+## How to cite
+Famke Bäuerle, Gwendolyn O. Döbel, Laura Camus, Simon Heilbronner, and Andreas Dräger. 
+Genome-scale metabolic models consistently predict in vitro characteristics of Corynebacterium
+striatum. Front. Bioinform., oct 2023. [doi:10.3389/fbinf.2023.1214074](https://doi.org/10.3389/fbinf.2023.1214074).
 
 ## Conversion of jupyter notebooks
 We can convert jupyter notebooks to other formats. Use this command to convert to a pdf that can be included in the thesis:
