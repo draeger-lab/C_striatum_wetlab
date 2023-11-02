@@ -1,4 +1,7 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-B4A069?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.10066428)
+[![Frontiers DOI](https://img.shields.io/badge/Frontiers%20DOI-10.3389%2Ffbinf.2023.1214074-B4A069?style=flat-square)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1214074/full)
+
 # C_striatum_wetlab
 This repository contains data generated in the wet lab needed for characterization and validation of strain specific GEMs
 
